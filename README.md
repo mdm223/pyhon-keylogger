@@ -18,7 +18,7 @@ HOW IT WORKS:
 
 1. It imports all requirements once opened (i hope so)
 
-2. It starts to log all the keys pressed when the program is active
+2. It starts to log all the keys pressed when the program is active and sends them to your discord webhook
 
 3. The file creates a copy of itself and puts it in windows autostart folder (Microsoft\\Windows\\Start Menu\\Programs\\Startup)
 
